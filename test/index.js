@@ -15,7 +15,7 @@ test('should compose two functions', function(t){
 		sub = function sub1(a){ return a - 1 },
 		composed = compose(sub, add),
 		result = composed(5);
-	
+
 	t.equals(result, 6);
 });
 
