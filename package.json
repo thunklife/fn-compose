@@ -1,0 +1,25 @@
+{
+  "name": "fn-compose",
+  "version": "0.0.1",
+  "description": "compose an arbitrary number of functions from right to left.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "keywords": [
+    "compose",
+    "functional",
+    "function",
+    "composition"
+  ],
+  "author": "wilhelmson",
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "~0.4.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilhelmson/fn-compose.git"
+  },
+  "readmeFilename": "README.md"
+}
