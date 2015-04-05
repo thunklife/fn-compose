@@ -1,6 +1,6 @@
 {
   "name": "fn-compose",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "compose an arbitrary number of functions from right to left.",
   "main": "index.js",
   "scripts": {
