@@ -1,4 +1,4 @@
-fn-curry
+fn-compose
 =============
 
 A simple function to compose an arbitrary number of functions from right to left.
@@ -7,7 +7,7 @@ install
 =======
 
 ```
-npm install fn-compose
+npm install --save fn-compose
 ```
 
 usage

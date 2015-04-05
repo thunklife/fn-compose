@@ -21,5 +21,8 @@
     "type": "git",
     "url": "https://github.com/wilhelmson/fn-compose.git"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "maybe-args": "0.0.3"
+  }
 }
