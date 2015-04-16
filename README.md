@@ -15,11 +15,11 @@ usage
 
 ```
 var compose = require('fn-compose'),
-	add2 = function add2(a){ return a + 2 },
+	mul2 = function mul2(a){ return a * 2 },
 	sub1 = function sub1(a){ return a - 1 },
-	add2Sub1 = compose(sub1, add2);
+	mul2Sub1 = compose(sub1, mul2);
 
-add2Sub1(5); //=> 6
+mul2Sub1(5); //=> 9
 
 ```
 
