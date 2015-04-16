@@ -11,22 +11,22 @@ test('should allow single function', function(t){
 
 test('should compose two functions', function(t){
     t.plan(1);
-    var add = function add2(a){ return a + 2 },
+    var mul = function mul2(a){ return a * 2 },
         sub = function sub1(a){ return a - 1 },
-        composed = compose(sub, add),
+        composed = compose(sub, mul),
         result = composed(5);
 
-    t.equals(result, 6);
+    t.equals(result, 9);
 });
 
 test('should compose more than two functions', function(t){
     t.plan(1);
-    var add = function add2(a){ return a + 2 },
+    var mul = function mul2(a){ return a * 2 },
         sub = function sub1(a){ return a - 1 },
-        composed = compose(add, sub, add),
+        composed = compose(mul, sub, mul),
         result = composed(5);
 
-    t.equals(result, 8);
+    t.equals(result, 18);
 })
 
 
