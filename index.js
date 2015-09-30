@@ -1,6 +1,9 @@
 var maybe = require('maybe-args');
 
 module.exports = maybe(compose);
+module.exports.ltr = maybe(function() {
+  return compose.apply(compose, Array.prototype.slice.call(arguments).reverse());
+});
 
 function compose(){
     var args = Array.prototype.slice.call(arguments);
